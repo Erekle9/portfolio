@@ -1,0 +1,39 @@
+$primary-color: #3DCFB6;
+$background-dark: #1C1C1C;
+$background-light: #f7f7f7;
+$font-dark: #000000;
+$font-light: #D9D9D9;
+
+.privacy-page {
+  
+
+
+  .privacy-content {
+    
+    background-color: $background-light;
+    padding: 25px;
+    color: $font-dark;
+    font-family: 'Karla', sans-serif;
+
+    h3 {
+      font-size: 24px;
+      font-weight: 700;
+      color: $font-dark;
+      margin-bottom: 15px;
+    }
+
+    h2 {
+      font-size: 20px;
+      font-weight: 700;
+      margin: 20px 0;
+      color: $font-dark;
+    }
+
+    p {
+      font-size: 16px;
+      font-weight: 400;
+      margin-bottom: 15px;
+      line-height: 1.5;
+    }
+  }
+}

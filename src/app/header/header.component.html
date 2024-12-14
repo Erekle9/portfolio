@@ -1,0 +1,69 @@
+<header class="header">
+  <div class="container">
+    <nav class="navbar">
+      <div class="language-switcher">
+        <div class="language-btn">
+          <button
+            class="lang-btn"
+            [class.active]="activeLang === 'EN'"
+            (click)="translateText('en')"
+          >
+            EN
+          </button>
+          <button
+            class="lang-btn"
+            [class.active]="activeLang === 'DE'"
+            (click)="translateText('de')"
+          >
+            DE
+          </button>
+        </div>
+        <ul class="nav-links">
+          <li><a href="#about-me">{{"NAV.ABOUT_ME" | translate}}</a></li>
+          <li><a href="#skills">{{"NAV.SKILLS" | translate}}</a></li>
+          <li><a href="#projects">{{"NAV.PROJECTS" | translate}}</a></li>
+        </ul>
+      </div>
+      <a href="/">
+          <div class="logo">
+        <img
+          class="logo"
+          src="/img/Erekle_Logo.png"
+          alt="Erekle Toedten Logo"
+        />
+      </div>
+      </a>
+      
+      <div class="burger-menu">
+        <input type="checkbox" id="menu-toggle" />
+        <label for="menu-toggle" class="menu-icon">
+          <img src="/img/burger-menu.svg" alt="Menu" />
+        </label>
+
+        <div class="menu-content">
+          <nav>
+            <a href="#about-me">{{"NAV.ABOUT_ME" | translate}}</a>
+            <a href="#skills">{{"NAV.SKILLS" | translate}}</a>
+            <a href="#projects">{{"NAV.PROJECTS" | translate}}</a>
+            <div class="burger-language-btn">
+              <button
+                class="lang-btn"
+                [class.active]="activeLang === 'EN'"
+                (click)="translateText('en')"
+              >
+                EN
+              </button>
+              <button
+                class="lang-btn"
+                [class.active]="activeLang === 'DE'"
+                (click)="translateText('de')"
+              >
+                DE
+              </button>
+            </div>
+          </nav>
+        </div>
+      </div>
+    </nav>
+  </div>
+</header>

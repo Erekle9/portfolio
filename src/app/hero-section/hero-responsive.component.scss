@@ -1,0 +1,64 @@
+@media only screen and (max-width: 1179px) {
+    h1 {
+      font-size: 82px !important;
+      text-align: center !important;
+    }
+  
+    h2 {
+      font-size: 24px !important;
+    }
+    .email {
+      display: none !important;
+    }
+    .scroll-sidebar-wrapper {
+      height: 56% !important;
+      
+    }
+  }
+
+  @media only screen and (max-width: 768px) {
+    .scroll-sidebar-wrapper {
+      padding: 0 40px !important;
+      
+    }
+  }
+  
+  @media only screen and (max-width: 630px) {
+    h1 {
+      font-size: 42px !important;
+      text-align: center !important;
+    }
+
+    h2 {
+      font-size: 18px !important;
+    }
+
+    button {
+      font-size: 14px !important;
+    }
+
+    .item {
+      font-size: 24px !important;
+    }
+    .scroll-sidebar-wrapper {
+      height: 60% !important;
+      
+    }
+  }
+
+  @media only screen and (max-width: 450px) {
+    button {
+      padding: 10px 10px !important;
+    }
+  }
+
+  @media only screen and (max-height: 667px) {
+    .hero-content {
+      margin-top: 100px !important;
+    }
+
+    .scroll-sidebar-wrapper {
+      height: 80% !important;
+      
+    }
+  }

@@ -1,0 +1,111 @@
+{
+    "LANGUAGE": {
+      "EN": "EN",
+      "DE": "DE"
+    },
+    "NAV": {
+      "ABOUT_ME": "Über mich",
+      "SKILLS": "Fähigkeiten",
+      "PROJECTS": "Projekte"
+    },
+    "HERO": {
+      "TITLE": "Frontend-Entwickler",
+      "NAME": "Erekle Toedten",
+      "CHECK_WORK": "Meine Arbeit prüfen",
+      "CONTACT_ME": "Kontaktiere mich"
+    },
+    "MARQUEE": {
+      "AVAILABLE_REMOTE": "Verfügbar für Fernarbeit",
+      "FRONTEND_DEV": "Frontend-Entwickler",
+      "BASED_HAMBURG": "Ansässig in Hamburg",
+      "OPEN_OPPORTUNITIES": "Offen für neue Möglichkeiten"
+    },
+    "ABOUT": {
+    "WHO_I_AM": "Wer ich bin",
+    "TITLE": "Über mich",
+    "INTRO": "Hallo, ich bin ein deutschsprachiger Frontend-Entwickler aus Hamburg. Begeistert von den grenzenlosen Möglichkeiten in der IT, freue ich mich darauf, visuell ansprechende und intuitive Webseiten und Anwendungen zu gestalten.",
+    "ITEM1": "Flexibel in Bezug auf Arbeitsumgebungen, ich kann sowohl vor Ort in München als auch remote effektiv arbeiten.",
+    "ITEM2": "Ich bin aufgeschlossen und suche stets persönliche Herausforderungen, um mein Wissen und meine Fähigkeiten kontinuierlich zu verbessern.",
+    "ITEM3": "In meinem Beruf ist Programmieren nicht nur das Schreiben von Code; es ist eine kreative Art der Problemlösung. Ich bin stolz darauf, komplexe technische Herausforderungen in einfache, benutzerfreundliche Lösungen zu verwandeln. Auf diese Weise helfe ich Ihnen, Ihre Ziele zu erreichen und Ihre Visionen zum Leben zu erwecken."
+  },
+    "SKILLS": {
+    "TECHNOLOGIES_TITLE": "Technologien",
+    "SKILL_SET_TITLE": "Fähigkeiten",
+    "SKILL_SET_DESCRIPTION": "Meine Reise umfasste verschiedene Projekte, bei denen eine Vielzahl von Frontend-Technologien und Konzepten zum Einsatz kam. Ich bin offen dafür, neue Technologien und Methoden anzunehmen, um meine Fähigkeiten kontinuierlich zu verbessern und in der sich ständig weiterentwickelnden Welt der Webentwicklung vorne zu bleiben.",
+    "NEED_ANOTHER_SKILL": "Benötigen Sie eine andere Fähigkeit?",
+    "CONTACT_ME": "Kontaktieren Sie mich gerne. Ich freue mich darauf, mein bisheriges Wissen zu erweitern.",
+    "LETS_TALK": "Sprechen wir",
+    "INTEREST_IN_LEARNING": "Ich habe ein besonderes Interesse am Lernen"
+  },
+    "PROJECTS": {
+    "PORTFOLIO_TITLE": "Portfolio",
+    "FEATURED_PROJECTS_TITLE": "Ausgewählte Projekte",
+    "INTRO_TEXT": "Hier ist eine Auswahl meiner Arbeit - Interagieren Sie mit Projekten,",
+    "INTRO_TEXT2": "um meine Fähigkeiten in Aktion zu sehen."
+  },
+    "PROJECTS_LIST": {
+      "JOIN": {
+        "DESCRIPTION_TITLE": "Worum geht es in diesem Projekt?",
+        "DESCRIPTION_TEXT": "Ein Aufgabenmanager inspiriert vom Kanban-System. Erstellen und organisieren Sie Aufgaben mit Drag-and-Drop-Funktionen, weisen Sie Benutzer und Kategorien zu.",
+        "LIVE_TEST": "Live-Test"
+      },
+      "EL_POLLO_LOCO": {
+        "DESCRIPTION_TITLE": "Worum geht es in diesem Projekt?",
+        "DESCRIPTION_TEXT": "Helfen Sie El Pollo Loco, Münzen zu sammeln und Feinde zu besiegen, in diesem lustigen Plattformspiel. Entwickelt mit JavaScript, HTML und CSS.",
+        "LIVE_TEST": "Live-Test"
+      }
+    },
+    "CONTACT": {
+    "TITLE": "Kontakt",
+    "HEADER": "Lass uns zusammenarbeiten",
+    "PROBLEM_TEXT": "Hast du ein Problem zu lösen?",
+    "DESCRIPTION": "Kontaktieren Sie mich über dieses Formular. Ich freue mich darauf, von Ihnen zu hören, Ihre Ideen kennenzulernen und mit meiner Arbeit zu Ihren Projekten beizutragen.",
+    "NEED_FRONTEND_DEV": "Benötigen Sie einen Frontend-Entwickler?",
+    "LETS_TALK": "Sprechen wir!",
+    "NAME_LABEL": "Wie heißt du?",
+    "NAME_PLACEHOLDER": "Dein Name kommt hier hin",
+    "NAME_ERROR": "Bitte geben Sie Ihren Namen ein",
+    "EMAIL_LABEL": "Wie lautet Ihre E-Mail?",
+    "EMAIL_PLACEHOLDER": "ihreemail@email.com",
+    "EMAIL_ERROR": "Bitte geben Sie eine gültige E-Mail ein",
+    "MESSAGE_LABEL": "Wie kann ich Ihnen helfen?",
+    "MESSAGE_PLACEHOLDER": "Schreiben Sie etwas",
+    "MESSAGE_ERROR": "Bitte geben Sie eine Nachricht ein",
+    "PRIVACY_CONFIRM": "Ich habe die ",
+    "PRIVACY_LINK": "Datenschutzerklärung",
+    "PRIVACY_AGREE": " gelesen und stimme der Verarbeitung meiner Daten wie beschrieben zu.",
+    "SUBMIT_BTN": "Sag Hallo ;)",
+    "SUCCESS_MESSAGE": "Ihre Nachricht wurde erfolgreich gesendet!"
+  },
+  "FOOTER": {
+    "IMPRINT": "Impressum",
+    "PRIVACY_POLICY": "Datenschutzerklärung"
+  },
+  "IMPRINT": {
+    "TITLE": "Impressum",
+    "SECTION_TITLE": "Angaben gemäß §5 TMG",
+    "CONTACT_TITLE": "Kontakt",
+    "PHONE": "Telefon"
+  },
+  "PRIVACY_POLICY": {
+    "TITLE": "Datenschutzerklärung",
+    "INTRODUCTION_TITLE": "1. Einleitung",
+    "INTRODUCTION_TEXT": "Willkommen auf meiner Website. Diese Datenschutzerklärung erklärt, wie ich Ihre personenbezogenen Daten sammle, verwende und schütze. Durch die Nutzung dieser Website stimmen Sie den in dieser Erklärung beschriebenen Bedingungen zu.",
+    "DATA_COLLECTION_TITLE": "2. Datenerhebung",
+    "DATA_COLLECTION_TEXT": "Personenbezogene Daten werden nur erhoben, wenn Sie diese freiwillig über Kontaktformulare oder E-Mail-Kommunikation zur Verfügung stellen. Dazu gehören Name, E-Mail-Adresse und Telefonnummer.",
+    "USE_OF_DATA_TITLE": "3. Verwendung der Daten",
+    "USE_OF_DATA_TEXT": "Die gesammelten personenbezogenen Daten werden ausschließlich dazu verwendet, Ihre Anfragen zu beantworten und die gewünschten Dienstleistungen bereitzustellen. Daten werden nur mit Ihrer Zustimmung an Dritte weitergegeben.",
+    "DATA_PROTECTION_TITLE": "4. Datenschutz",
+    "DATA_PROTECTION_TEXT": "Ich treffe angemessene Sicherheitsvorkehrungen, um Ihre persönlichen Daten vor unbefugtem Zugriff oder Offenlegung zu schützen. Es kann jedoch keine vollständige Sicherheit bei der Übertragung über das Internet oder der elektronischen Speicherung garantiert werden.",
+    "DISCLAIMER_TITLE": "5. Haftungsausschluss",
+    "DISCLAIMER_TEXT": "Die Informationen auf dieser Website werden 'wie gesehen' ohne Gewährleistungen oder Zusicherungen bereitgestellt. Ich übernehme keine Haftung für Schäden, die sich aus der Nutzung oder Unmöglichkeit der Nutzung dieser Website oder ihrer Inhalte ergeben. Dies umfasst insbesondere Fehler oder Auslassungen im Inhalt sowie Verluste oder Schäden, die durch die Nutzung dieser Website entstehen.",
+    "CHANGES_POLICY_TITLE": "6. Änderungen dieser Erklärung",
+    "CHANGES_POLICY_TEXT": "Ich behalte mir das Recht vor, diese Datenschutzerklärung von Zeit zu Zeit zu aktualisieren. Änderungen werden auf dieser Seite veröffentlicht, und das Datum der Überarbeitung wird aktualisiert. Sie sollten diese Erklärung regelmäßig überprüfen, um über Änderungen informiert zu bleiben.",
+    "CONTACT_INFORMATION_TITLE": "7. Kontaktinformationen",
+    "CONTACT_INFORMATION_TEXT": "Wenn Sie Fragen oder Bedenken zu dieser Datenschutzerklärung haben, können Sie mich unter den folgenden Kontaktdaten erreichen:",
+    "PHONE": "Telefon"
+  }
+  
+  
+  }
+  

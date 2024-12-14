@@ -1,0 +1,85 @@
+$primary-color: #3DCFB6;
+$background-dark: #1C1C1C;
+$background-light: #f7f7f7;
+$font-dark: #000000;
+$font-light: #D9D9D9;
+$font-large: 32px;
+$font-medium: 24px;
+$font-small: 18px;
+
+.impressum-page {
+  .impressum-header {
+    background: linear-gradient(55.22deg, $background-dark 36.26%, #08463B 93.28%);
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    button {
+        margin: 0 auto;
+        background-color: $primary-color;
+        border: none;
+        color: white;
+        padding: 5px 10px;
+        
+        cursor: pointer;
+    
+        &:not(.active) {
+          background-color: transparent;
+          color: $primary-color;
+        }
+    
+        &.active {
+          padding: 6.5px 13px;
+          background-color: $primary-color;
+          border-radius: 15px;
+          font-weight: 700;
+        }
+      }
+
+      .language-btn {
+        border: 1px solid #3DCFB6;
+        border-radius: 15px;
+        display: flex;
+        justify-items: center;
+        overflow: hidden;
+        align-items: center;
+        
+         &:hover {
+            border: 1px solid #D9D9D9;
+          }
+      }
+    
+    .logo {
+      width: 100px;
+    }
+  }
+
+  .impressum-content {
+    background-color: $background-light;
+    padding: 50px;
+    color: $font-dark;
+    font-family: 'Karla', sans-serif;
+
+    h3 {
+      font-size: $font-large;
+      font-weight: 700;
+      color: $font-dark;
+      margin-bottom: 15px;
+    }
+
+    h2 {
+      font-size: $font-medium;
+      font-weight: 700;
+      margin: 20px 0;
+      color: $font-dark;
+    }
+
+    p {
+      font-size: $font-small;
+      font-weight: 400;
+      margin-bottom: 15px;
+      line-height: 1.5;
+    }
+  }
+}

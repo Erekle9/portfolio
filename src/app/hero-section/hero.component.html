@@ -1,0 +1,67 @@
+<header class="hero">
+  <div class="container">
+    <div class="hero-content">
+      <h2>{{"HERO.TITLE" | translate}}</h2>
+      <h1>{{"HERO.NAME" | translate}}</h1>
+    </div>
+    <div class="hero-buttons">
+      <!-- First Button -->
+       <a href="#projects">
+        <button (mouseenter)="startAnimation(0)" (mouseleave)="stopAnimation()">
+          <span
+            class="cursor-pointer"
+            [ngClass]="{ 'slide-left': hoveredButtonIndex === 0 }"
+          >
+          {{"HERO.CHECK_WORK" | translate}}
+          </span>
+        </button>
+        </a>
+      <!-- Second Button -->
+       <a href="#contact">
+          <button (mouseenter)="startAnimation(1)" (mouseleave)="stopAnimation()">
+            <span
+              class="cursor-pointer"
+              [ngClass]="{ 'slide-left': hoveredButtonIndex === 1 }"
+            >
+            {{"HERO.CONTACT_ME" | translate}}
+            </span>
+          </button>
+       </a>
+    </div>
+
+    <div class="scroll-sidebar-wrapper">
+      <div class="scroll-indicator">
+        <div class="scroll-down">
+          <img src="/img/Vector-down.svg" alt="" />
+        </div>
+        <div class="scroll-line"></div>
+      </div>
+
+      <div class="right-sidebar">
+        <div class="email">erekleantidze&#64;gmail.com</div>
+        <div class="social-icons">
+          <a href="https://github.com/Erekle9" target="_blank">
+            <img src="/img/github-icon.svg" alt="GitHub" />
+          </a>
+          <a href="https://www.linkedin.com/in/erekle-toedten-2a6984321/" target="_blank">
+            <img src="/img/linkedin-icon.svg" alt="LinkedIn" />
+          </a>
+        </div>
+        <div class="sidebar-line"></div>
+      </div>
+    </div>
+
+    <div class="marquee">
+      <ul class="marquee-content">
+        <li class="item item1">• {{"MARQUEE.AVAILABLE_REMOTE" | translate}}</li>
+        <li class="item item2">• {{"MARQUEE.FRONTEND_DEV" | translate}}</li>
+        <li class="item item3">• {{"MARQUEE.BASED_HAMBURG" | translate}}</li>
+        <li class="item item4">• {{"MARQUEE.OPEN_OPPORTUNITIES" | translate}}</li>
+        <li class="item item5">• {{"MARQUEE.AVAILABLE_REMOTE" | translate}}</li>
+        <li class="item item6">• {{"MARQUEE.FRONTEND_DEV" | translate}}</li>
+        <li class="item item7">• {{"MARQUEE.BASED_HAMBURG" | translate}}</li>
+        <li class="item item8">• {{"MARQUEE.OPEN_OPPORTUNITIES" | translate}}</li>
+      </ul>
+    </div>
+  </div>
+</header>

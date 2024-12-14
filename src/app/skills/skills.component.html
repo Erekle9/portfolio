@@ -1,0 +1,91 @@
+<div class="technologies-container" id="skills">
+  <!-- Skill Set Container -->
+  <div class="skill-set-container">
+    <div class="">
+         <h4 class="technologies-title">{{"SKILLS.TECHNOLOGIES_TITLE" | translate}}</h4>
+    <div class="skill-set-text">
+      <h2>{{"SKILLS.SKILL_SET_TITLE" | translate}}</h2>
+      <p>
+        {{"SKILLS.SKILL_SET_DESCRIPTION" | translate}}
+      </p>
+      <h3>{{"SKILLS.NEED_ANOTHER_SKILL" | translate}}</h3>
+      <p>
+        {{"SKILLS.CONTACT_ME" | translate}}
+      </p>
+      <div class="contact-btn-container">
+        <button class="contact-btn">
+          <a href="#contact"><span>{{"SKILLS.LETS_TALK" | translate}}</span></a>
+        </button>
+      </div>
+    </div>
+    </div>
+
+    <!-- Technologies Icons -->
+    <div class="tech-icons">
+      <div class="icon-item">
+        <img src="/img/html.svg" alt="HTML">
+        <p>HTML</p>
+      </div>
+      <div class="icon-item">
+        <img src="/img/css.svg" alt="CSS">
+        <p>CSS</p>
+      </div>
+      <div class="icon-item">
+        <img src="/img/js.svg" alt="JavaScript">
+        <p>JavaScript</p>
+      </div>
+      <div class="icon-item">
+        <img src="/img/material-design.svg" alt="Material Design">
+        <p>Material Design</p>
+      </div>
+      <div class="icon-item">
+        <img src="/img/ts.svg" alt="TypeScript">
+        <p>TypeScript</p>
+      </div>
+      <div class="icon-item">
+        <img src="/img/angular.svg" alt="Angular">
+        <p>Angular</p>
+      </div>
+      <div class="icon-item">
+        <img src="/img/firebase.svg" alt="Firebase">
+        <p>Firebase</p>
+      </div>
+      <div class="icon-item">
+        <img src="/img/github-icon.svg" alt="GIT">
+        <p>GIT</p>
+      </div>
+      <div class="icon-item">
+        <img src="/img/rest-api.svg" alt="Rest API">
+        <p>Rest-API</p>
+      </div>
+      <div class="icon-item">
+        <img src="/img/scrum.svg" alt="Scrum">
+        <p>Scrum</p>
+      </div>
+      <div class="icon-item card" (click)="openModal(true)" (mouseover)="openModal(true)" (mouseleave)="openModal(false)">
+        <img src="/img/growth-mindest.svg" alt="Growth Mindset">
+        <p>Growth Mindset</p>
+      
+        <!-- Modal -->
+        <div class="modal" [ngClass]="{'open': isModalOpen}">
+          <div class="modal-content">
+            <p class="modal-text">{{"SKILLS.INTEREST_IN_LEARNING" | translate}}</p>
+            <div class="modal-item">
+              <div class="modal-icons">
+                <img src="/img/react-logo.svg" alt="React">
+                <p class="modal-text">React</p>
+              </div>
+              <div class="modal-icons">
+                <img src="/img/python-logo.svg" alt="Python">
+                <p class="modal-text">python</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+</div>
+
+

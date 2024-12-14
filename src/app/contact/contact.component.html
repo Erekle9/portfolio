@@ -1,0 +1,70 @@
+<div class="contact-section" id="contact">
+  <div class="contact-container">
+    <div class="contact-header">
+      <h3>{{"CONTACT.TITLE" | translate}}</h3>
+      <h1>{{"CONTACT.HEADER" | translate}}</h1>
+      <p class="problem-text">{{"CONTACT.PROBLEM_TEXT" | translate}}</p>
+      <p class="description">
+        {{"CONTACT.DESCRIPTION" | translate}}
+      </p>
+      <p class="lets_talk">
+        {{"CONTACT.NEED_FRONTEND_DEV" | translate}} <a class="cta" href="#contact-form"><span class="talk-link">{{"CONTACT.LETS_TALK" | translate}}</span></a>
+      </p>
+    </div>
+  
+    <div class="contact-form">
+
+      <div *ngIf="isMessageSent" class="success-message">
+        {{ "CONTACT.SUCCESS_MESSAGE" | translate }}
+      </div>
+
+      <form (ngSubmit)="onSubmit(contactForm)" #contactForm="ngForm">
+        <hr />
+        <div class="input-group">
+          <label for="name">{{"CONTACT.NAME_LABEL" | translate}}</label>
+          <input type="text" id="name" [placeholder]="'CONTACT.NAME_PLACEHOLDER' | translate" #name="ngModel" [(ngModel)]="contactData.name" name="name" required/>
+          @if (!name.valid && name.touched && !name.disabled) {
+            <span>{{"CONTACT.NAME_ERROR" | translate}}</span>
+          }
+        </div>
+        <hr />
+  
+        <div class="input-group">
+          <label for="email">{{"CONTACT.EMAIL_LABEL" | translate}}</label>
+          <input type="email" id="email" [placeholder]="'CONTACT.EMAIL_PLACEHOLDER' | translate" #email="ngModel" [(ngModel)]="contactData.email" name="email" required pattern="[a-zA-Z0-9._%+\-]+@[a-zA-Z0-9.\-]+\.[a-zA-Z]{2,}"/>
+          @if (!email.valid && email.touched && !email.disabled) {
+            <span>{{"CONTACT.EMAIL_ERROR" | translate}}</span>
+          }
+        </div>
+        <hr />
+  
+        <div class="input-group">
+          <label for="message">{{"CONTACT.MESSAGE_LABEL" | translate}}</label>
+          <textarea id="message" [placeholder]="'CONTACT.MESSAGE_PLACEHOLDER' | translate" #message="ngModel" minlength="12" [(ngModel)]="contactData.message" name="message" required></textarea>
+
+          @if (!message.valid && message.touched && !message.disabled) {
+            <span>{{"CONTACT.MESSAGE_PLACEHOLDER" | translate}}</span>
+          }
+        </div>
+        <hr />
+  
+        <div class="checkbox-group">
+          <input type="checkbox" class="checkbox" id="privacy" 
+          [checked]="isCheckboxChecked" 
+          #privacyCheckbox 
+          (change)="toggleCheckbox(privacyCheckbox.checked)" />
+          <label for="privacy" class="checkbox-text">
+            {{"CONTACT.PRIVACY_CONFIRM" | translate}} <a routerLink="/datenschutz" class="privacy-link">{{"CONTACT.PRIVACY_LINK" | translate}}</a> {{"CONTACT.PRIVACY_AGREE" | translate}}
+          </label>
+        </div>
+  
+        <button type="submit" class="submit-btn" 
+          [disabled]="!isCheckboxChecked" 
+          [ngClass]="{ 'hover-enabled': isCheckboxChecked }">
+          {{"CONTACT.SUBMIT_BTN" | translate}}
+        </button>
+      </form>
+    </div>
+  </div>
+</div>
+  
